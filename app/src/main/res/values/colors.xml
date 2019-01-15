@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1452e2</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#b4dc1310</color>
+    <color name="radbtn">#050366</color>
+    <color name="sighin">#5b0303</color>
+    <color name="bgbtn">#7fefd7</color>
+</resources>

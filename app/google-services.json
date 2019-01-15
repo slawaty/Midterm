@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701158816097",
+    "firebase_url": "https://ledmidterm.firebaseio.com",
+    "project_id": "ledmidterm",
+    "storage_bucket": "ledmidterm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701158816097:android:48920f6fa65c51d8",
+        "android_client_info": {
+          "package_name": "thanakit.ruts.ac.th.midterm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701158816097-rnpl507ffvglben3kdh760h7onl8ieu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr4qWSyab9f-UNZ-ptPtUxlK-8EhwbhVs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
