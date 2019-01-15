@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 
 public class First extends AppCompatActivity {
 
     MediaPlayer mediaPlayer;
-    Button btnnext1, btnnext2;
+    Button btnnext1;
     EditText user, pass;
 
     @Override
@@ -35,14 +36,6 @@ public class First extends AppCompatActivity {
                 Intent intent = new Intent(First.this, Welcome_smarthouse.class);
                 startActivity(intent);
 
-        btnnext2= (Button) findViewById(R.id.btn2);
-        btnnext2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(First.this, Welcome_Tem.class);
-                startActivity(intent);
-            }
-        });
 
                 intent.putExtra("names", user.getText().toString());
                 intent.putExtra("passwd", pass.getText().toString());
